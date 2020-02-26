@@ -43,7 +43,7 @@ public class Workout {
 
     // Show all non-null attributes
     public void show() {
-        System.out.println("We are in the workout show() method.");
+        System.out.println("In Workout.show() method.");
         if (this.date != null) System.out.println("Date: " + this.date);
         if (this.type != null) System.out.println("Type: " + this.type);
         if (this.block != null) System.out.println("Block: " + this.block);
@@ -57,6 +57,6 @@ public class Workout {
     }
 
     public static void main(String[] args) {
-        System.out.println("In Workout.main()");
+        System.out.println("In Workout.main() method.");
     }
 }

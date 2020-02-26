@@ -43,7 +43,7 @@ public class Lift {
 
     //Show all non-null Lift attributes
     public void show() {
-        System.out.println("We are in the Lift.show() method.");
+        System.out.println("In Lift.show() method.");
         if (this.name != null) System.out.println("Name: " + this.name);
         if (this.variation != null) System.out.println("Variation: " + this.variation);
         if (this.intensity != 0) System.out.println("Intensity: " + this.intensity);
@@ -57,6 +57,6 @@ public class Lift {
     }
 
     public static void main(String[] args) {
-        System.out.println("In Lift.main().");
+        System.out.println("In Lift.main() method.");
     }
 }

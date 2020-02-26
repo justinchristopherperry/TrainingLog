@@ -22,12 +22,12 @@ public class Set {
     }
 
     public void show() {
-        System.out.println("We are in the Set.show() method.");
+        System.out.println("In the Set.show() method.");
         if (this.load > 0) System.out.println("Load: " + this.load + "kgs");
         if (this.reps > 0) System.out.println("Reps: " + this.reps);
     }
 
     public static void main(String[] args) {
-        System.out.println("In Set.main()");
+        System.out.println("In Set.main() method.");
     }
 }
